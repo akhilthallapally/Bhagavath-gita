@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Click Change</title>
+    <style>
+        /* Add some basic styling for the images */
+        .image-container {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        /* Add styles to hide the second image initially */
+        .second-image {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click on the image to change it:</h1>
+
+    <!-- Image container with the first image -->
+    <div class="image-container" onclick="changeImage()">
+        <img src="first_image.jpg" alt="First Image" id="image1">
+    </div>
+
+    <!-- Image container with the second image -->
+    <div class="image-container" onclick="changeImage()">
+        <img src="second_image.jpg" alt="Second Image" id="image2" class="second-image">
+    </div>
+
+    <script>
+        function changeImage() {
+            // Get references to the images
+            var image1 = document.getElementById("image1");
+            var image2 = document.getElementById("image2");
+
+            // Toggle the display property to show/hide the images
+            if (image1.style.display === "none") {
+                image1.style.display = "inline-block";
+                image2.style.display = "none";
+            } else {
+                image1.style.display = "none";
+                image2.style.display = "inline-block";
+            }
+        }
+    </script>
+</body>
+</html>

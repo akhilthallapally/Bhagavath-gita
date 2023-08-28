@@ -1,0 +1,115 @@
+.navbar-styling{
+    background-image: linear-gradient(#b6902d, #f0e782, #d4b052, #dab145);
+    width: 100%;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.homepage-bg{
+    background-image: url('https://res.cloudinary.com/dht0coy9f/image/upload/v1690611065/gita_home_page_bg_n4hivf.jpg');
+    background-size: cover;
+}
+.search-box{
+    background-image: linear-gradient(#b6902d, #f0e782, #d4b052, #dab145);
+    width: 45%;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 0px;
+    height: 45px;
+   
+}
+.choose-button-style{
+        background-color: black;
+        border-style: solid;
+        border-width: 0;
+        border-radius: 16px;
+        color: white;
+        width: 130px;
+        height: 30px;
+}
+.choose-button-style2{
+    background-color: black;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 16px;
+    color: white;
+    width: 40px;
+    height: 30px;
+}
+.search-text{
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 20px;
+}
+.book-section-bg{
+    background-image: url('https://res.cloudinary.com/dht0coy9f/image/upload/v1690611065/gita_book_bg_k2qjvi.jpg');
+    background-size: cover;
+}
+.search-box-styling{
+    background-image: linear-gradient(#b6902d, #f0e782, #d4b052, #dab145);
+    width: 70%;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 0px;
+    height: 100%;
+
+}
+.choose-button-style{
+    background-color: black;
+    border-style: solid;
+    border-radius: 16px;
+    color: white;
+    width: 150px;
+}
+.video-bg{
+    background-image: url('https://res.cloudinary.com/dht0coy9f/image/upload/v1690611066/youtube_bg_yq4e9q.jpg');
+    background-size: cover;
+   
+}
+
+.img-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .ytbg{
+    background-image: url(https://res.cloudinary.com/dht0coy9f/image/upload/v1690611066/youtube_bg_yq4e9q.jpg);
+  }
+  .frame {
+    position: relative;
+    width: 700px; /* Set your desired width for the frame */
+    height: 450px; /* Set your desired height for the frame */
+    margin: 50px auto;
+    background-image: url('frame.png'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; /* Make sure video doesn't overflow outside the frame */
+    border: 0px;
+  }
+  
+  .frame iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the video within the frame */
+    width: 80%; /* Adjust the size of the video to be smaller than the frame */
+    height: 80%; /* Adjust the size of the video to be smaller than the frame */
+    border: 0px;
+   /* Optional: Add border radius for a rounded video */
+  }
+  
+
+.card-section-bg{
+    background-image: url(https://res.cloudinary.com/dht0coy9f/image/upload/v1690611065/card_section_bg_ha32d5.jpg);
+    background-size: cover;
+    
+}
+.card-book-styling{
+    height: 300px;
+    width: 400px;
+}
